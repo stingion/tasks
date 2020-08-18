@@ -1,0 +1,33 @@
+#Settings
+
+target/
+.idea
+*.iml
+*.ipr
+*.iws
+*.*~
+*~
+
+# Log files
+*.log
+logs/
+
+#Vagrant
+.vagrant
+
+#Ignore wiki folder (it's separate git repository for project wiki)
+wiki/
+
+#sonar
+.sonar/
+
+*.tmpf
+
+#Elastic Stack
+/elasticstack
+
+#PMD analyze cache
+pmd/pmd.cache
+
+# sprcific local maven configs
+.mvn_ignore/
